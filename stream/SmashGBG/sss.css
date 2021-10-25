@@ -1,0 +1,83 @@
+#board {
+    position: absolute;
+    height: 96px;
+    width: 1676px;
+    top: 580px;
+    left: 118px;
+    color: white;
+    font-size: 40px;
+
+}
+
+.caster {
+    position: absolute;
+    height: 96px;
+    width: 814px;
+    text-align: center;
+}
+
+#caster2 {
+    right: 0px;
+}
+
+.name.hidden,
+.countdown.hidden,
+.countdownTextOpacityWrapper.hidden,
+.info.hidden {
+    opacity: 0;
+}
+
+.sponsor {
+    font-family: "Proxima Nova Condensed Light";
+}
+
+.name {
+    font-family: "Proxima Nova Condensed Bold";
+    float: left;
+    transform: scale(.9);
+    height: 96px;
+    line-height: 96px;
+    font-weight: bold;
+    text-align: left;
+    transition: all 1000ms ease;
+}
+
+.info {
+    text-align: right;
+    float: right;
+    height: 96px;
+    line-height: 96px;
+    font-size: 24px;
+    font-style: italic;
+    transition: all 1000ms ease;
+}
+
+.countdownTextOpacityWrapper {
+    transition: all 1000ms ease;
+}
+
+.standby {
+    font-family: "Proxima Nova Condensed Bold";
+    color: #2f618e;
+    text-align: center;
+    font-size: 100px;
+    transition: all 1000ms ease;
+    transform: skew(0deg, 2.94deg);
+}
+
+#standbyTopText {
+    position: absolute;
+    top: 94px;
+    width: 1920px;
+    height: 150px;
+    line-height: 150px;    
+}
+
+#standbyBottomText {
+    position: absolute;
+    bottom: 89px;
+    width: 1920px;
+    height: 150px;
+    line-height: 150px;  
+    font-size: 80px;  
+}

@@ -1,0 +1,21 @@
+{
+    "name":"GBG Smash",
+    "resolution":[1920,1080],
+    "author":"Savestate",
+    "caster":5,
+    "fields":[
+        {"name":"round", "label":"Round", "type":"text", "checkbox":false, "smashgg":"fullRoundText", "matchlist":true},
+        {"name":"bestof", "label":"Best of 3 or 5", "type":"text", "checkbox":false},
+        {"name":"standby", "label":"Standby Text Top", "type":"text", "checkbox":false},
+        {"name":"standby2", "label":"Standby Text Bottom", "type":"text", "checkbox":false},
+        {"name":"countdown", "label":"Intermission Countdown", "type":"time","checkbox":true},
+        {"name":"leftcolor", "label":"Left Team Color", "type":"dropdown", "checkbox":false, "options":["No Color", "Red", "Blue", "Green"]},
+        {"name":"rightcolor", "label":"Right Team Color", "type":"dropdown", "checkbox":false, "options":["No Color", "Red", "Blue", "Green"]},
+        {"name":"teamnames", "label":"Using Team Names?",  "type":"dropdown","checkbox":true}
+    ],
+    "styles":[
+        "general.css",
+        "fonts.css"
+    ]
+
+}

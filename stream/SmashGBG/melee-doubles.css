@@ -1,0 +1,131 @@
+#board {
+    position: absolute;
+    height: 72px;
+    width:604px;
+    top: 405px;
+    left: 0px;
+    color: 242424;
+    font-size: 40px;
+    transition: all 1000ms ease;
+    /* background: rgba(255,0,0,0.25); */ /* for adjusting position */
+}
+
+.portrait {
+    position: absolute;
+    top: 28px;
+    height: 480px;
+    width: 320px;
+    transition: all 1000ms ease;
+    object-fit: cover;
+    object-position: top;
+    opacity: 0;
+    z-index: -3;
+}
+
+.portrait.visible {
+    opacity: 1;
+}
+
+#portraitP1 {
+    left: 28px;
+}
+
+#portraitP2 {
+    right: 28px;
+}
+
+.stock {
+    position: absolute;
+    height: 37px;
+    width: auto;
+    top: 17px;
+    transition: all 1000ms ease;
+}
+
+#stockP1 {
+    left: 10px;
+}
+
+#stockP2 {
+    right: 10px;
+}
+
+.player {
+    position: absolute;
+    height: 72px;
+    width: 604px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 72px;
+    font-family: "Proxima Nova Condensed Bold";
+}
+
+.sponsor {
+    font-family: "Proxima Nova Condensed Light";
+}
+
+#player2 {
+    top:  403px;
+}
+
+.name {
+    transform: scale(.9);
+    position: absolute;
+    width: 550px;
+    height: 54px;
+    line-height: inherit;
+    left: 0;
+    transition: all 1000ms ease;
+}
+
+.name.hidden,
+.score.hidden,
+.round.hidden,
+.scoreText.hidden,
+.stock.hidden {
+    opacity: 0.0;
+}
+
+#nameP2 {
+
+}
+
+.score {
+    position: absolute;
+    height: 58px;
+    line-height: 59px;
+    font-size: 36px;
+    top: 5px;
+    font-family: "Proxima Nova Condensed Bold";
+    transition: all 1000ms ease;
+    width: 55px;
+    background: #242424;
+    color: #efefef;
+}
+
+.scoreText {
+    transition: all 1000ms ease;
+}
+
+#scoreP1 {
+    right: 1px;
+}
+
+#scoreP2 {
+    right: 1px;
+}
+
+#round {
+    position: absolute;
+    top: 2px;
+    transform: scale(0.9);
+    font-size: 48px;
+    width: 604px;
+    height: 64px;
+    text-align: center;
+    color: white;
+    transition: all 1000ms ease;
+    line-height: 64px;
+    font-family: "Proxima Nova Bold";
+    left: 0;
+}

@@ -1,0 +1,8 @@
+  10/24/2021 10:59:40 AM: Starting composition “Comp 1”.
+
+  Output To: D:\joseph\pix\gbg\stinger.mov    10/24/2021 10:59:44 AM: Finished composition “Comp 1”.
+
+
+  Total Time Elapsed: 3 Seconds
+Log closed on 10/24/2021 at 10:59:44 AM
+

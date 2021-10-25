@@ -1,0 +1,70 @@
+#board {
+    position: absolute;
+    height: 96px;
+    width: 1276px;
+    top: 853px;
+    left: 322px;
+    color: #111;
+    font-size: 40px;
+
+}
+
+#infoC1 {
+    position: absolute;
+    top: 66px;
+    left: 257px;
+}
+
+.caster {
+    position: absolute;
+    height: 96px;
+    width: 554px;
+    text-align: center;
+}
+
+#caster2 {
+    right: 0px;
+}
+
+.name.hidden,
+.info.hidden {
+    opacity: 0;
+}
+
+.sponsor {
+    font-family: "Proxima Nova Condensed Light";
+}
+
+.name {
+    font-family: "Proxima Nova Condensed Bold";
+    float: right;
+    transform: scale(.9);
+    height: 96px;
+    line-height: 96px;
+    font-weight: bold;
+    text-align: right;
+    transition: all 1000ms ease;
+}
+
+.info {
+    text-align: center;
+    float: right;
+    height: 96px;
+    line-height: 96px;
+    font-size: 24px;
+    font-style: italic;
+    transition: all 1000ms ease;
+    color: #efefef;
+    width: 260px;
+}
+
+#nameC2 {
+    margin-left: 38px;
+    float: left;
+}
+
+#infoC2 {
+    position: absolute;
+    top: 66px;
+    right: 257px;
+}

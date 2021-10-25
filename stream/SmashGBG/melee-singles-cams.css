@@ -1,0 +1,167 @@
+#board {
+    position: absolute;
+    height: 60px;
+    width: 1920px;
+    top: 970px;
+    left: 0;
+    color: #000;
+    font-size: 40px;
+    transition: all 1000ms ease;
+    /* background: rgba(255,0,0,0.25); /* for adjusting position */
+}
+
+.portrait {
+    position: absolute;
+    top: 28px;
+    height: 480px;
+    width: 320px;
+    transition: all 1000ms ease;
+    object-fit: cover;
+    object-position: top;
+    opacity: 0;
+    z-index: -3;
+}
+
+.portrait.visible {
+    opacity: 1;
+}
+
+#portraitP1 {
+    left: 28px;
+}
+
+#portraitP2 {
+    right: 28px;
+}
+
+.stock {
+    position: absolute;
+    height: 37px;
+    width: auto;
+    top: 17px;
+    transition: all 1000ms ease;
+}
+
+#stockP1 {
+    left: 10px;
+}
+
+#stockP2 {
+    right: 10px;
+}
+
+.player {
+    position: absolute;
+    height: 72px;
+    width: 303px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 72px;
+    font-family: "Proxima Nova Condensed Bold";
+}
+
+.sponsor {
+    font-family: "Proxima Nova Condensed Light";
+}
+
+#player2 {
+    right: 0px;
+}
+
+.name {
+    transform: scale(0.9);
+    position: absolute;
+    width: 260px;
+    height: 54px;
+    line-height: inherit;
+    left: 0px;
+    transition: all 1000ms ease;
+}
+
+.name.hidden,
+.inforotate.hidden,
+.score.hidden,
+.round.hidden,
+.bestof.hidden,
+.stock.hidden {
+    opacity: 0.0;
+}
+
+#nameP2 {
+    left: 42px;
+}
+
+.score {
+    position: absolute;
+    width: 56px;
+    height: 72px;
+    line-height: inherit;
+    font-size: 36px;
+    color: #fff;
+    font-family: "Proxima Nova Condensed Bold";
+    transition: all 1000ms ease;
+}
+
+#scoreP1 {
+    right: -4px;
+}
+
+#scoreP2 {
+    left: -4px;
+}
+
+#round {
+    position: absolute;
+    top: -630px;
+    transform: scale(0.9);
+    font-size: 48px;
+    width: 303px;
+    height: 150px;
+    text-align: center;
+    color: white;
+    transition: all 1000ms ease;
+    line-height: 150px;
+    font-family: "Proxima Nova Bold";
+    left: 0;
+}
+
+#bestof {
+    position: absolute;
+    top: -630px;
+    transform: scale(0.9);
+    font-size: 48px;
+    width: 303px;
+    height: 150px;
+    text-align: center;
+    color: white;
+    transition: all 1000ms ease;
+    line-height: 150px;
+    font-family: "Proxima Nova Bold";
+    right: 0;
+}
+
+.inforotate {
+    font-size: 26px;
+    width: 303px;
+    height: 150px;
+    text-align: center;
+    color: white;
+    transition: all 1000ms ease;
+    font-family: "Proxima Nova Bold";    
+}
+
+#p1inforotate {
+    position: absolute;
+    top: 14px;
+    transform: scale(0.9);
+    line-height: 150px;
+    left: 0;
+}
+
+#p2inforotate {
+    position: absolute;
+    top: 14px;
+    transform: scale(0.9);
+    line-height: 150px;
+    right: 0;
+}

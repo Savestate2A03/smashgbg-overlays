@@ -1,8 +1,0 @@
-  10/10/2021 7:45:28 AM: Starting composition “iStock-1302453617”.
-
-  Output To: D:\joseph\pix\gbg\iStock-1302453617.avi    10/10/2021 7:51:18 AM: Finished composition “iStock-1302453617”.
-
-
-  Total Time Elapsed: 5 Min, 50 Sec
-Log closed on 10/10/2021 at 7:51:19 AM
-
